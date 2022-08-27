@@ -1,0 +1,10 @@
+
+body{background-color: beige;}
+.titular{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;}
+.subtitulo{
+    color:rgb(10, 69, 117);
+    text-align: center;
+    font-size: 30px;}
