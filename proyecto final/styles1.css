@@ -8,3 +8,23 @@ body{background-color: beige;}
     color:rgb(10, 69, 117);
     text-align: center;
     font-size: 30px;}
+
+
+.container-marcas{
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+    padding: 10px;
+    gap: 5px ;
+    text-align: center;
+    line-height: 15px;
+}
+.grid-item{
+    background-color: rgba(123, 198, 241, 0.8);
+    font-size: 20px;
+    text-align:center
+}
+.imagenesdemarcas{
+    width: 100%;
+    height: 500px;
+    margin: 6px;
+}
