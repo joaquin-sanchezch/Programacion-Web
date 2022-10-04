@@ -1,5 +1,42 @@
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(247, 236, 177);
+}
+.barra-menu{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 100%;
+    margin: 0px;
+}
+.Titulos{
+    margin: 0px;
+    padding: 0px;
+}
+#buscador {
+    justify-content: right;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
 
-body{background-color: beige;}
+
+.info{
+    background-color: orange;
+    text-align: center;
+}
+.info:hover{
+    background-color: red;
+    color: blue;
+}
+
+
+
 .titular{
     color:rgb(0, 0, 0);
     text-align: center;
@@ -8,8 +45,12 @@ body{background-color: beige;}
     color:rgb(10, 69, 117);
     text-align: center;
     font-size: 30px;}
+.botones-de-arriba{
+    text-align: center;
+    display: 
 
-
+}
+@media only screen  and (max-width: 768px) {
 .container-marcas{
     display:grid;
     grid-template-columns: auto auto auto auto ;
@@ -27,4 +68,20 @@ body{background-color: beige;}
     width: 100%;
     height: 500px;
     margin: 6px;
+}
+}
+div2{
+    display: contents;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.info{
+    background-color: rgb(43, 48, 49);
+    color: azure;
+    text-align: center;
+}
+.info:hover{
+    background-color: rgb(9, 255, 0);
+    color: rgb(0, 0, 0);
 }
